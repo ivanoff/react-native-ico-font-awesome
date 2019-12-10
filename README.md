@@ -1,6 +1,6 @@
-# react-native-ico-font-awesome
+# Font Awesome Icons for React Native
 
-### Font Awesome Icons for React Native
+### react-native-ico-font-awesome
 
 369 Icons
 
@@ -13,15 +13,19 @@ import Icon from 'react-native-ico-font-awesome';
 // Inside some view component
 render() {
     return (
-        <Fragment>
+        <>
           <Icon name="home" />
           <Icon name="file" height="40" width="40" />
           <Icon name="smile" color="red" />
-        </Fragment>
+        </>
     );
 }
 
 ```
+
+## List of icons
+
+- [List of Font Awesome Icons](static/font-awesome.md)
 
 ## Installation
 
@@ -62,10 +66,6 @@ color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 ...rest | no | | other props | style={{backgroundColor: "#00f"}}
-
-## List of icons
-
-- [List of Font Awesome Icons](static/font-awesome.md)
 
 ## Icons Made by
 

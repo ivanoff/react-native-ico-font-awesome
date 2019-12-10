@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-font-awesome",
-  "version": "1.2.1",
+  "version": "1.5.2",
   "description": "Font Awesome Icons for React Native",
   "main": "src/index.js",
   "module": "src/index.js",
@@ -17,7 +17,8 @@
     "React Native",
     "Icons",
     "Icon",
-    "SVG"
+    "SVG",
+    "Font Awesome"
   ],
   "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
   "bugs": {
