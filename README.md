@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Font Awesome Icons](static/font-awesome.md)
+- [List of Font Awesome Icons](http://ico.simpleness.org/pack/font-awesome)
 
 ## Installation
 
