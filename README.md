@@ -1,4 +1,4 @@
-# font awesome Icons for React Native
+# Font Awesome Icons for React Native
 
 ### react-native-ico-font-awesome
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of font awesome Icons](http://ico.simpleness.org/pack/font-awesome)
+- [List of Font Awesome Icons](http://ico.simpleness.org/pack/font-awesome)
 
 ## Installation
 
