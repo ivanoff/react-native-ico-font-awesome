@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-font-awesome';
 render() {
     return (
         <>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="align-to-left" />
+          <Icon name="align-to-right" height="40" width="40" />
+          <Icon name="ambulance" color="red" />
         </>
     );
 }
@@ -61,7 +61,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "home"
+name | no |  | name of file | "align-to-left"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
