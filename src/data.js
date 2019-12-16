@@ -1,4 +1,4 @@
-module.exports = `
+module.exports = {
 	'add-square-button': `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="328.911px" height="328.911px" viewBox="0 0 328.911 328.911" style="enable-background:new 0 0 328.911 328.911;"
 	 xml:space="preserve">
@@ -8113,4 +8113,4 @@ module.exports = `
 	</g>
 </g>
 </svg>
-``
+`}
