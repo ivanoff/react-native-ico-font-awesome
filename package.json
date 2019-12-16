@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-font-awesome",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "description": "font awesome Icons for React Native",
   "main": "src/index.js",
   "dependencies": {
