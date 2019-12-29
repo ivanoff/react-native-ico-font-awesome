@@ -2,7 +2,13 @@
 
 ### react-native-ico-font-awesome
 
-369 Icons
+369 Vector Icons for React Native
+
+<img src="./static/align-to-left.png" alt="align-to-left" width="150" height="150"> <img src="./static/align-to-right.png" alt="align-to-right" width="150" height="150"> <img src="./static/ambulance.png" alt="ambulance" width="150" height="150">
+
+## List of icons
+
+- [List of Font Awesome Icons](http://ico.simpleness.org/pack/font-awesome)
 
 ## Usage
 
@@ -22,10 +28,6 @@ render() {
 }
 
 ```
-
-## List of icons
-
-- [List of Font Awesome Icons](http://ico.simpleness.org/pack/font-awesome)
 
 ## Installation
 
@@ -61,7 +63,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "align-to-left"
+name | no |  | name of icon | "align-to-left"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
