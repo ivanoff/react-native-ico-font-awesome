@@ -4,7 +4,7 @@
 
 369 Vector Icons for React Native
 
-<img src="./static/align-to-left.png" alt="align-to-left" width="150" height="150"> <img src="./static/align-to-right.png" alt="align-to-right" width="150" height="150"> <img src="./static/ambulance.png" alt="ambulance" width="150" height="150">
+<img src="./static/ban-circle-symbol.png" alt="ban-circle-symbol" width="150" height="150"> <img src="./static/sign-out-option.png" alt="sign-out-option" width="150" height="150"> <img src="./static/align-justify.png" alt="align-justify" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-font-awesome';
 render() {
     return (
         <>
-          <Icon name="align-to-left" />
-          <Icon name="align-to-right" height="40" width="40" />
-          <Icon name="ambulance" color="red" />
-          <Icon name="ambulance" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="align-to-right" badge="10" />
-          <Icon name="align-to-right" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="align-to-left" background="circle" />
-          <Icon name="align-to-left" background={{ type: "button", color: 'green' }} />
+          <Icon name="ban-circle-symbol" />
+          <Icon name="sign-out-option" height="40" width="40" />
+          <Icon name="align-justify" color="red" />
+          <Icon name="align-justify" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="sign-out-option" badge="10" />
+          <Icon name="sign-out-option" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="ban-circle-symbol" background="circle" />
+          <Icon name="ban-circle-symbol" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -54,7 +54,9 @@ npm install --save react-native-ico-font-awesome react-native-svg
 react-native link react-native-svg
 ```
 
-### pod install ( for iOS )
+`react-native-svg` is a peer dependency. Install a current version in the app so the package uses the app-level native module instead of pulling in an older nested copy.
+
+### pod install (for iOS)
 
 ```
 cd ios && pod install && cd ..
@@ -68,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "align-to-left"
+name | no |  | name of icon | "ban-circle-symbol"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
